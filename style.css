@@ -1,0 +1,72 @@
+body {
+    background-image: url(emubac.jpg); /* Replace with your image file path */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color:lightblue
+  }
+
+
+.myDiv {
+    background-image: -moz-element();
+      
+    text-align: center;
+  }
+.contact{
+    border-radius: 50%;
+}
+
+.ppic{
+    width:150px; 
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+p{
+    font-size: 20px; /* Adjust the value to increase or decrease the font size */
+    color: aliceblue;
+  }
+
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    /*height: 100vh; /* Set to full viewport height */
+  }
+
+  .my-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #124565; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 10px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    list-style: none;
+    display: inline-block;
+
+    /* flex-direction: column; */
+    /* align-self: center; */
+  } 
+
+  .buttons-div {
+    width: 200px; 
+    margin: 40px auto 0px; 
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 10px;
+   
+  }
+
+.socials-div {
+    width: 30%;  
+    margin: 40px auto 0px;
+    display: flex; 
+    flex-direction: row;  
+} 
+
+.socials-div div {
+    width: 25%;
+}
